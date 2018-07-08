@@ -1,0 +1,61 @@
+@font-face {
+    font-family: ar_ari;
+    src: url(font/Alarabiya.ttf);
+}
+body{
+    background-color: #d2dae2;
+    font-family: ar_ari ;
+}
+nav{    
+    position: fixed;
+    top :0;
+    width: 100%;
+    padding:1px;
+    background-color: #111111;    
+    border-radius: 4px;
+    font-size: 24px;
+    display: block;    
+}
+.nav_text{      
+    padding:3px;
+    border-radius: 4px;
+    color: white;        
+}
+.nav_text:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: red;
+}
+a{    
+    text-decoration: none;
+}
+#cen_nav {     
+    text-align: center;  
+}
+article{    
+    margin: auto;
+    width: 80%;    
+    background-color: #808e9b;
+    border-radius: 4px;
+}
+#hcap{
+    text-align: center;    
+}
+table{
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
+th,td{
+    width: 33%;
+}
+@media only screen and (max-width: 600px) {
+    nav {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 370px) {
+    nav {
+        font-size: 10px;
+    }
+}
